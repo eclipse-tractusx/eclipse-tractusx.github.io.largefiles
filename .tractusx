@@ -16,7 +16,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 ###############################################################
-poduct: "eclipse-tractusx.github.io.largefiles"
+product: "eclipse-tractusx.github.io.largefiles"
 leadingRepository: "https://github.com/eclipse-tractusx/eclipse-tractusx.github.io.largefiles"
 repoCategory: "support"
 repositories:
