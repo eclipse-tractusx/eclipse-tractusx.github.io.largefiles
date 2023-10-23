@@ -31,3 +31,8 @@ git commit -m "added extension for .zip files"
 git push
 # generate a PR to merge your branch into master
 ```
+
+## How to link static files
+
+To link this repository files you need to use the raw link to the file. You can get this link by clicking on the file in the repository and then clicking on the `Raw` button. This will open the file in a new tab, and you can copy the link from the address bar.
+For our Docusaurus Page it is described in [Docusaurus documentation](https://docusaurus.io/docs/static-assets#referencing-your-static-asset), for Markdown you can use the [Markdown Documentation](https://www.markdownguide.org/basic-syntax/#link-best-practices) and general information for GitHub can be found [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links).
