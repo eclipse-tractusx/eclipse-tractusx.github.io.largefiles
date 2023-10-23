@@ -25,7 +25,7 @@ git lfs install
 # add your desired files based on their extension eg. *.zip, this will update the .gitattributes file
 git lfs track "*.zip"
 # add the .gitattributes file and changed files to your branch
-git add .gitattributes
+git add .gitattributes *.zip
 # commit and push to a new branch
 git commit -m "added extension for .zip files"
 git push
