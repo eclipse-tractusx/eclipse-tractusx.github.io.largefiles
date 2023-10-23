@@ -4,9 +4,8 @@ To publish bigger files through GitHub pages or distribute them, GitHub suggests
 
 ## Naming convention
 
-allowed file names **`DATE_KIT_TITLE_VERSION (e.g., 230808_ECOPASS_VIDEO_v1)`**
+allowed file names **`KITorCOMPONENT_TITLE_VERSION (e.g., ECOPASS_VIDEO_v1)`**
 
-- DATE: YYMMDD
 - KIT / COMPONENT: ECOPASS, EDC, BPDM, PORTAL, ...
 - TITLE: VIDEO, MANUAL, ...
 - VERSION: v1, v2, ...
