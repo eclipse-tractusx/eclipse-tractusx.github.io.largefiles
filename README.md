@@ -28,7 +28,7 @@ git add .gitattributes *.zip
 # commit and push to a new branch
 git commit -m "added extension for .zip files"
 git push
-# generate a PR to merge your branch into master
+# generate a PR to merge your branch into main
 ```
 
 ## How to link static files
