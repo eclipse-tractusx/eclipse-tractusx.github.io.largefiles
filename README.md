@@ -12,23 +12,23 @@ allowed file names **`KITorCOMPONENT_TITLE_VERSION (e.g., ECOPASS_VIDEO_v1)`**
 
 ## How to use
 
-Please read up on how to use `git lfs`. You can also follow the [guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) provided by GitHub.
+Please read up on how to use `git lfs`. You can also follow the [guide](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) provided by GitHub and the git-lfs [installation guide](https://github.com/git-lfs/git-lfs/wiki/Installation).
 
 ## How to add files
 
-To add files to this repository, you need to install git lfs first. Then you can add files to the repository like this:
+To add files to this repository, you need to install git lfs first see [How-to-use](#how-to-use). Then you can add files to the repository like this:
 
 ```bash
-# install git lfs
-git lfs install
 # add your desired files based on their extension eg. *.zip, this will update the .gitattributes file
 git lfs track "*.zip"
 # add the .gitattributes file and changed files to your branch
-git add .gitattributes *.zip
-# commit and push to a new branch
+git add .gitattributes "*.zip"
+# commit and push to your desired branch
 git commit -m "added extension for .zip files"
+# push lfs files to the lfs server to your desired branch, replace BRANCHNAME with your branch name
+git lfs push --all origin BRANCHNAME
 git push
-# generate a PR to merge your branch into main
+# now you can generate a PR to merge your branch into main
 ```
 
 ## How to link static files
