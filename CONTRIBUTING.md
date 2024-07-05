@@ -42,7 +42,7 @@ Getting started:
 
 The project maintains the following source code repositories
 
-* https://github.com/eclipse-tractusx/sig-release
+* https://github.com/eclipse-tractusx/eclipse-tractusx.github.io.largefiles
 
 ## Eclipse Development Process
 
