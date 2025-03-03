@@ -1,0 +1,46 @@
+{
+  "failurePatternDefinition": [
+    {
+      "stringExpression": {
+        "stringPropertyName": "ecuList_dtcs_fullName",
+        "stringInsideOperator": "equal",
+        "stringValue": "P0002-00",
+        "referenceToAspectModel": {
+          "ttlFile": "DiagnosticData.ttl",
+          "modelVersion": "2.0.0",
+          "nameSpace": "io.catenax.fleet.diagnostic_data"
+        }
+      },
+      "expressionConnector": "AND"
+    },
+    {
+      "subExpressionList": [
+        {
+          "numericExpression": {
+            "numericPropertyName": "mileage",
+            "numericInsideOperator": "higher_equal",
+            "numericValue": 200,
+            "referenceToAspectModel": {
+              "ttlFile": "DiagnosticData.ttl",
+              "modelVersion": "2.0.0",
+              "nameSpace": "io.catenax.fleet.diagnostic_data"
+            }
+          },
+          "expressionConnector": "AND"
+        },
+        {
+          "numericExpression": {
+            "numericPropertyName": "mileage",
+            "numericInsideOperator": "lower_equal",
+            "numericValue": 300,
+            "referenceToAspectModel": {
+              "ttlFile": "DiagnosticData.ttl",
+              "modelVersion": "2.0.0",
+              "nameSpace": "io.catenax.fleet.diagnostic_data"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
