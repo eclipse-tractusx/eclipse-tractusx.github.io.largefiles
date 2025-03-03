@@ -1,0 +1,59 @@
+{
+    "failurePatternDefinition": [
+      {
+        "stringExpression": {
+          "stringPropertyName": "ecuList_dtcs_fullName",
+          "stringInsideOperator": "equal",
+          "stringValue": "P0001-00",
+          "referenceToAspectModel": {
+            "ttlFile": "DiagnosticData.ttl",
+            "modelVersion": "2.0.0",
+            "nameSpace": "io.catenax.fleet.diagnostic_data"
+          }
+        },
+        "expressionConnector": "AND"
+      },
+      {
+        "stringExpression":{
+          "stringPropertyName": "plantIdentifier",
+          "stringInsideOperator": "equal",
+          "stringValue": "11",
+          "referenceToAspectModel": {
+            "ttlFile": "Vehicles.ttl",
+            "modelVersion": "2.1.0",
+            "nameSpace": "io.catenax.fleet.vehicles"
+          }
+        },
+        "expressionConnector": "AND"
+      },
+      {
+        "subExpressionList": [
+            {
+              "timestampExpression": {
+                "timestampPropertyName": "productionDate",
+                "timestampInsideOperator": "after",
+                "timestampValue": "2019-03-01T00:00:00",
+                "referenceToAspectModel": {
+                  "ttlFile": "Vehicles.ttl",
+                  "modelVersion": "2.1.0",
+                  "nameSpace": "io.catenax.fleet.claim_data"
+                }
+              },
+              "expressionConnector": "AND"
+            },
+            {
+              "timestampExpression": {
+                "timestampPropertyName": "productionDate",
+                "timestampInsideOperator": "before",
+                "timestampValue": "2019-04-30T00:00:00",
+                "referenceToAspectModel": {
+                  "ttlFile": "Vehicles.ttl",
+                  "modelVersion": "2.1.0",
+                  "nameSpace": "io.catenax.fleet.claim_data"
+                }
+              }
+            }
+        ]
+      }
+    ]
+  }
