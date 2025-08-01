@@ -1,0 +1,720 @@
+{
+  "metaInformation" : {
+    "selectionCriteria" : "This test data set was created for Catena-X release 25/Saturn. All test data is artificial and was translated from previous Catena-X release 24.",
+    "selectionEnd" : "2025-12-31T23:59:59",
+    "selectionStart" : "2025-05-09T00:00:00"
+  },
+  "vehicles" : [ {
+    "anonymizedVIN" : "AAM5818K0U7UBV9RH48I2Q682206F7I",
+    "class" : "A",
+    "driveSystemPower" : 120,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 2",
+    "modelIdentifier" : "CAR2",
+    "productionDate" : "2019-04-07",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-07-08",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "0d54f4b3-8c0c-9f3d-8b2c-71bc32de54ae",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0000000000AA",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 11",
+      "plantIdentifier" : "11"
+    },
+    "engines" : [ {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-04-05",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-03-08"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "DAB+ Radio",
+      "equipmentIdentifier" : "Eq_3",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Glass roof",
+      "equipmentIdentifier" : "Eq_9",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Hill brake assistant",
+      "equipmentIdentifier" : "Eq_5",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking heater",
+      "equipmentIdentifier" : "Eq_2",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Parking sensor rear",
+      "equipmentIdentifier" : "Eq_7",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "4c42e2b6-5d0f-1d4a-2c7f-99ed89aa46dd",
+      "partName" : "zehn",
+      "partNumber" : "8D34393E7FFE",
+      "serialNumber" : "81894ED363C"
+    } ]
+  }, {
+    "anonymizedVIN" : "AAO6858G2V7NRV4RG77B2U820616X2T",
+    "class" : "A",
+    "driveSystemPower" : 220,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 2",
+    "modelIdentifier" : "CAR2",
+    "productionDate" : "2019-10-01",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2020-01-01",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "0a64f5f5-3e7d-0e0d-2c9b-19ab38be61fb",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0123456789ZZ",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 12",
+      "plantIdentifier" : "12"
+    },
+    "engines" : [ {
+      "engineDescription" : "Additional power boost",
+      "engineId" : "E-PLUG100",
+      "engineSeries" : "e-power",
+      "engineSize" : 0,
+      "installDate" : "2019-09-29",
+      "nhtsaFuelType" : "Electric",
+      "power" : 100,
+      "productionDate" : "2019-09-01"
+    }, {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-09-29",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-09-01"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "3rd row of seats",
+      "equipmentIdentifier" : "Eq_10",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "DAB+ Radio",
+      "equipmentIdentifier" : "Eq_3",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Parking sensor front",
+      "equipmentIdentifier" : "Eq_6",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking sensor rear",
+      "equipmentIdentifier" : "Eq_7",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "4a37b8c3-9e5f-8c7c-8d0a-83dd94df13eb",
+      "partName" : "zwanzig",
+      "partNumber" : "75BC746AB746",
+      "serialNumber" : "518659BC905"
+    } ]
+  }, {
+    "anonymizedVIN" : "AAP6842C0F5BVO8NJ87L6Z227492E3U",
+    "class" : "A",
+    "driveSystemPower" : 120,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 1",
+    "modelIdentifier" : "CAR1",
+    "productionDate" : "2019-03-08",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-06-08",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "4b49a2d4-0b8d-9c3a-6b5a-42ce92bf13dc",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0000000000AA",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 11",
+      "plantIdentifier" : "11"
+    },
+    "engines" : [ {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-03-06",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-02-06"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "3rd row of seats",
+      "equipmentIdentifier" : "Eq_10",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Automatic Gear",
+      "equipmentIdentifier" : "Eq_4",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Glass roof",
+      "equipmentIdentifier" : "Eq_9",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Hill brake assistant",
+      "equipmentIdentifier" : "Eq_5",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking heater",
+      "equipmentIdentifier" : "Eq_2",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Rearview camera",
+      "equipmentIdentifier" : "Eq_8",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "9d94b7c1-7a0d-6e6d-8a0e-78fb41fe41ad",
+      "partName" : "zehn",
+      "partNumber" : "8D34393E7FFE",
+      "serialNumber" : "4EFD65AF046"
+    } ]
+  }, {
+    "anonymizedVIN" : "AAR5698P9N4CDV9BN25E2K255639A7X",
+    "class" : "A",
+    "driveSystemPower" : 120,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 1",
+    "modelIdentifier" : "CAR1",
+    "productionDate" : "2019-03-02",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-06-02",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "1e79e1f7-8e2e-2f4c-4c5f-89fd47dc30cf",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0123456789ZZ",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 13",
+      "plantIdentifier" : "13"
+    },
+    "engines" : [ {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-02-28",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-01-31"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "3rd row of seats",
+      "equipmentIdentifier" : "Eq_10",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Automatic Gear",
+      "equipmentIdentifier" : "Eq_4",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "DAB+ Radio",
+      "equipmentIdentifier" : "Eq_3",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Hill brake assistant",
+      "equipmentIdentifier" : "Eq_5",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking sensor front",
+      "equipmentIdentifier" : "Eq_6",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking sensor rear",
+      "equipmentIdentifier" : "Eq_7",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Rearview camera",
+      "equipmentIdentifier" : "Eq_8",
+      "group" : "Exterior"
+    } ],
+    "parts" : [ {
+      "partId" : "2b42f9a1-4a9c-1f5c-4e1d-68ea11cd12eb",
+      "partName" : "zehn",
+      "partNumber" : "8D34393E7FFE",
+      "serialNumber" : "943EF6F4EF7"
+    } ]
+  }, {
+    "anonymizedVIN" : "ABB5820C1X8OXR5UL60E1T878074O3K",
+    "class" : "A",
+    "driveSystemPower" : 220,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 2",
+    "modelIdentifier" : "CAR2",
+    "productionDate" : "2019-04-07",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-07-08",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "4e96b0f5-0f6c-2f4d-1c8f-43cd55ee44bc",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0000000000AA",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 11",
+      "plantIdentifier" : "11"
+    },
+    "engines" : [ {
+      "engineDescription" : "Additional power boost",
+      "engineId" : "E-PLUG100",
+      "engineSeries" : "e-power",
+      "engineSize" : 0,
+      "installDate" : "2019-04-05",
+      "nhtsaFuelType" : "Electric",
+      "power" : 100,
+      "productionDate" : "2019-03-08"
+    }, {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-04-05",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-03-08"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "3rd row of seats",
+      "equipmentIdentifier" : "Eq_10",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Automatic Gear",
+      "equipmentIdentifier" : "Eq_4",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Glass roof",
+      "equipmentIdentifier" : "Eq_9",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Parking heater",
+      "equipmentIdentifier" : "Eq_2",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Parking sensor front",
+      "equipmentIdentifier" : "Eq_6",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking sensor rear",
+      "equipmentIdentifier" : "Eq_7",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Rearview camera",
+      "equipmentIdentifier" : "Eq_8",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "4e78a1d5-3d9f-1e9d-7c1f-26cf54fb35cc",
+      "partName" : "zehn",
+      "partNumber" : "8D34393E7FFE",
+      "serialNumber" : "67BFEF6582A"
+    } ]
+  }, {
+    "anonymizedVIN" : "ABH1762K3F6KTH3XI19N6P546751L3S",
+    "class" : "A",
+    "driveSystemPower" : 220,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 2",
+    "modelIdentifier" : "CAR2",
+    "productionDate" : "2019-05-01",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-08-01",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "9f20e9d9-4f2d-4f7a-1a0f-08cd15aa93cf",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0123456789ZZ",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 12",
+      "plantIdentifier" : "12"
+    },
+    "engines" : [ {
+      "engineDescription" : "Additional power boost",
+      "engineId" : "E-PLUG100",
+      "engineSeries" : "e-power",
+      "engineSize" : 0,
+      "installDate" : "2019-04-29",
+      "nhtsaFuelType" : "Electric",
+      "power" : 100,
+      "productionDate" : "2019-04-01"
+    }, {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-04-29",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-04-01"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "3rd row of seats",
+      "equipmentIdentifier" : "Eq_10",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Hill brake assistant",
+      "equipmentIdentifier" : "Eq_5",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking sensor front",
+      "equipmentIdentifier" : "Eq_6",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking sensor rear",
+      "equipmentIdentifier" : "Eq_7",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Rearview camera",
+      "equipmentIdentifier" : "Eq_8",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "2b38f7f1-4c0f-0e5e-9d9f-22ff94cb82dc",
+      "partName" : "zehn",
+      "partNumber" : "8D34393E7FFE",
+      "serialNumber" : "ED199A3BB15"
+    } ]
+  }, {
+    "anonymizedVIN" : "ABU4228O8K4GGT0RK40I6K091567G4N",
+    "class" : "A",
+    "driveSystemPower" : 120,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 1",
+    "modelIdentifier" : "CAR1",
+    "productionDate" : "2019-01-01",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-04-03",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "7f56c3b8-7a8e-7f1e-4e1c-75cf37bf16cb",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0123456789ZZ",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 13",
+      "plantIdentifier" : "13"
+    },
+    "engines" : [ {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2018-12-30",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2018-12-02"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "Automatic Gear",
+      "equipmentIdentifier" : "Eq_4",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "DAB+ Radio",
+      "equipmentIdentifier" : "Eq_3",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Glass roof",
+      "equipmentIdentifier" : "Eq_9",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Hill brake assistant",
+      "equipmentIdentifier" : "Eq_5",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Rearview camera",
+      "equipmentIdentifier" : "Eq_8",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "5c49a8d7-3a8b-9a2e-5b0f-46de41ac55ec",
+      "partName" : "zwanzig",
+      "partNumber" : "75BC746AB746",
+      "serialNumber" : "F1969A0A588"
+    } ]
+  }, {
+    "anonymizedVIN" : "ABX1180M7H2PGI7EH26M2Y701551V8C",
+    "class" : "A",
+    "driveSystemPower" : 120,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 1",
+    "modelIdentifier" : "CAR1",
+    "productionDate" : "2019-02-01",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-05-04",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "0d39b1e0-1c5d-3d7f-8f9a-99bf17fe02da",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0123456789ZZ",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 12",
+      "plantIdentifier" : "12"
+    },
+    "engines" : [ {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-01-30",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-01-02"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "Automatic Gear",
+      "equipmentIdentifier" : "Eq_4",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "DAB+ Radio",
+      "equipmentIdentifier" : "Eq_3",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Hill brake assistant",
+      "equipmentIdentifier" : "Eq_5",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking heater",
+      "equipmentIdentifier" : "Eq_2",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Parking sensor front",
+      "equipmentIdentifier" : "Eq_6",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking sensor rear",
+      "equipmentIdentifier" : "Eq_7",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "4b11b2d7-7a4b-0f3a-7a1a-32ec80ac94ef",
+      "partName" : "zwanzig",
+      "partNumber" : "75BC746AB746",
+      "serialNumber" : "ABD556A498B"
+    } ]
+  }, {
+    "anonymizedVIN" : "ACI9032E5N3WMX9LT67D1H662574W3S",
+    "class" : "A",
+    "driveSystemPower" : 220,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 1",
+    "modelIdentifier" : "CAR1",
+    "productionDate" : "2019-03-09",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-06-09",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "6d49f9a2-6f2b-9f0a-4c8f-30af05fa05bf",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0000000000AA",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 11",
+      "plantIdentifier" : "11"
+    },
+    "engines" : [ {
+      "engineDescription" : "Additional power boost",
+      "engineId" : "E-PLUG100",
+      "engineSeries" : "e-power",
+      "engineSize" : 0,
+      "installDate" : "2019-03-07",
+      "nhtsaFuelType" : "Electric",
+      "power" : 100,
+      "productionDate" : "2019-02-07"
+    }, {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-03-07",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-02-07"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "3rd row of seats",
+      "equipmentIdentifier" : "Eq_10",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Automatic Gear",
+      "equipmentIdentifier" : "Eq_4",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "DAB+ Radio",
+      "equipmentIdentifier" : "Eq_3",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Hill brake assistant",
+      "equipmentIdentifier" : "Eq_5",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Parking heater",
+      "equipmentIdentifier" : "Eq_2",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "1c82d3c2-6d1c-4d0c-6a6a-56ae42fa42fc",
+      "partName" : "zehn",
+      "partNumber" : "8D34393E7FFE",
+      "serialNumber" : "2ED3D6974A2"
+    } ]
+  }, {
+    "anonymizedVIN" : "ACK3502P3I6YGS5TE92B2M836827J5X",
+    "class" : "A",
+    "driveSystemPower" : 120,
+    "driveType" : "Front-Wheel Drive",
+    "modelDescription" : "CX test model 1",
+    "modelIdentifier" : "CAR1",
+    "productionDate" : "2019-05-01",
+    "recordStatus" : "new",
+    "softwareCategory" : "TZGH64738",
+    "softwareVersion" : "3.4.9837.567",
+    "soldCountryCode" : "DEU",
+    "soldCountryGroup" : "Europe",
+    "soldDate" : "2019-08-01",
+    "steeringPos" : "Left-Hand Drive",
+    "vehicleId" : "1c49b0a6-6d0c-3f1b-6c7c-35de47bb92ea",
+    "vehicleSeries" : "Series1",
+    "wmiCode" : "CAX",
+    "wmiNameNHTSA" : "CatenaX Test OEM",
+    "plant" : {
+      "plantBPNS" : "BPNS0123456789ZZ",
+      "plantCountryCode" : "DEU",
+      "plantDescription" : "Plant 12",
+      "plantIdentifier" : "12"
+    },
+    "engines" : [ {
+      "engineDescription" : "Standard Diesel V4 2.0 engine.",
+      "engineId" : "CKBY4780",
+      "engineSeries" : "Series V4",
+      "engineSize" : 1998,
+      "installDate" : "2019-04-29",
+      "nhtsaFuelType" : "Diesel",
+      "power" : 120,
+      "productionDate" : "2019-04-01"
+    } ],
+    "equipments" : [ {
+      "equipmentDescription" : "3rd row of seats",
+      "equipmentIdentifier" : "Eq_10",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "DAB+ Radio",
+      "equipmentIdentifier" : "Eq_3",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Glass roof",
+      "equipmentIdentifier" : "Eq_9",
+      "group" : "Interior"
+    }, {
+      "equipmentDescription" : "Parking sensor front",
+      "equipmentIdentifier" : "Eq_6",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Rearview camera",
+      "equipmentIdentifier" : "Eq_8",
+      "group" : "Exterior"
+    }, {
+      "equipmentDescription" : "Sport seats",
+      "equipmentIdentifier" : "Eq_1",
+      "group" : "Interior"
+    } ],
+    "parts" : [ {
+      "partId" : "6f00b2f1-6f8a-9c2e-8f1a-41aa74fc73fd",
+      "partName" : "zehn",
+      "partNumber" : "8D34393E7FFE",
+      "serialNumber" : "FB5C39B1C4D"
+    } ]
+  } ]
+}

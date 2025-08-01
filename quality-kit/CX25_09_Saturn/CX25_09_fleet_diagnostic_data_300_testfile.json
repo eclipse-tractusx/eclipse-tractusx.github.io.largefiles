@@ -1,0 +1,1268 @@
+{
+  "metaInformation" : {
+    "selectionCriteria" : "This test data set was created for Catena-X release 25/Saturn. All test data is artificial and was translated from previous Catena-X release 24.",
+    "selectionEnd" : "2025-12-31T23:59:59",
+    "selectionStart" : "2025-05-09T00:00:00"
+  },
+  "diagnosticSessions" : [ {
+    "anonymizedVIN" : "AAA9989N4O4KMN0CQ34P1J256389K4W",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-05-06T10:00:01",
+    "sessionId" : "AAA9989N4O4KMN0CQ34P1J256389K4W_20200506",
+    "sessionMileage" : 360,
+    "sessionStart" : "2020-05-06T08:00:01",
+    "vehicleId" : "6c47b8a7-4b5e-4a5c-4c0e-48ba51dd13fc",
+    "vehicleSoftwareCategory" : "TZGH78747",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 14.9500398594454,
+      "longitude" : 47.4629867444407,
+      "workShopId" : "6715419"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-05-06T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-05-06T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-05-06T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-05-06T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V2",
+      "partName" : "Catena-X test ECU B",
+      "partNumber" : "V039492870",
+      "readOutTimestamp" : "2022-02-23T06:23:33",
+      "serialNumber" : "6247B2BA51D",
+      "swPartNumber" : "SW_B4",
+      "swVersion" : "AD",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 29",
+        "fullName" : "P0029-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 16,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2020-05-03T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-02-23T06:23:33",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAB1767T6G1FUB6RJ70X2I840335C9Y",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-11-08T10:00:01",
+    "sessionId" : "AAB1767T6G1FUB6RJ70X2I840335C9Y_20191108",
+    "sessionMileage" : 330,
+    "sessionStart" : "2019-11-08T08:00:01",
+    "vehicleId" : "3a00a4a4-1c2f-6d0b-0f2b-02bc26cd99bd",
+    "vehicleSoftwareCategory" : "TZGH103322",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 14.4163994340838,
+      "longitude" : 51.0915030450975,
+      "workShopId" : "5353213"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-11-08T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-11-08T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-11-08T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-11-08T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-12-11T09:35:01",
+      "serialNumber" : "ACE6B4AA8EA",
+      "swPartNumber" : "SW_A",
+      "swVersion" : "AA",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 4",
+        "fullName" : "P0004-00",
+        "isMilOn" : true,
+        "occurenceCounterTotal" : 29,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2019-11-05T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-12-11T09:35:01",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAB4868K5J4QHS4AB96Z3S352548C0J",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-02-05T10:00:01",
+    "sessionId" : "AAB4868K5J4QHS4AB96Z3S352548C0J_20200205",
+    "sessionMileage" : 330,
+    "sessionStart" : "2020-02-05T08:00:01",
+    "vehicleId" : "7a30c2b2-1d9e-2b6f-4e3a-09cb20cd65aa",
+    "vehicleSoftwareCategory" : "TZGH83575",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 13.7804394508062,
+      "longitude" : 50.1570116010933,
+      "workShopId" : "9472684"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-02-05T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-02-05T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-02-05T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-02-05T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU G",
+      "partNumber" : "V039541151",
+      "readOutTimestamp" : "2022-10-28T03:10:39",
+      "serialNumber" : "493BA422A2F",
+      "swPartNumber" : "SW_G",
+      "swVersion" : "AA",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 27",
+        "fullName" : "P0027-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 25,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2020-02-02T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-10-28T03:10:39",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAB6871W4G8LLM8NN98H6H887295Y2T",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-02-19T10:00:01",
+    "sessionId" : "AAB6871W4G8LLM8NN98H6H887295Y2T_20200219",
+    "sessionMileage" : 330,
+    "sessionStart" : "2020-02-19T08:00:01",
+    "vehicleId" : "7e93a2f3-5e1a-4f1d-7a2a-79ea36dc22ca",
+    "vehicleSoftwareCategory" : "TZGH109207",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 7.0394900165906,
+      "longitude" : 46.1500807452448,
+      "workShopId" : "1402754"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-02-19T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-02-19T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-02-19T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-02-19T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V2",
+      "partName" : "Catena-X test ECU B",
+      "partNumber" : "V039492870",
+      "readOutTimestamp" : "2022-02-22T11:22:39",
+      "serialNumber" : "3EA9BCCFDF4",
+      "swPartNumber" : "SW_B",
+      "swVersion" : "AB",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 9",
+        "fullName" : "P0009-00",
+        "isMilOn" : true,
+        "occurenceCounterTotal" : 24,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2020-02-16T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-02-22T11:22:39",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAB7135Y2J2KNQ1NQ02H8A295611R7V",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-02-10T10:00:01",
+    "sessionId" : "AAB7135Y2J2KNQ1NQ02H8A295611R7V_20200210",
+    "sessionMileage" : 330,
+    "sessionStart" : "2020-02-10T08:00:01",
+    "vehicleId" : "3b99f0b8-8f3a-0f8f-9a4e-84dd97bc11bb",
+    "vehicleSoftwareCategory" : "TZGH85407",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 22.3211591675923,
+      "longitude" : 52.9573263890649,
+      "workShopId" : "8815064"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-02-10T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-02-10T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-02-10T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-02-10T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU C",
+      "partNumber" : "V039559478",
+      "readOutTimestamp" : "2022-12-09T12:59:06",
+      "serialNumber" : "8698030943D",
+      "swPartNumber" : "SW_C",
+      "swVersion" : "CE",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 29",
+        "fullName" : "P0029-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 25,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2020-02-07T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-12-09T12:59:06",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAB8049W6N4RKP6TF76Y9Y598766L9W",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-05-02T10:00:01",
+    "sessionId" : "AAB8049W6N4RKP6TF76Y9Y598766L9W_20200502",
+    "sessionMileage" : 360,
+    "sessionStart" : "2020-05-02T08:00:01",
+    "vehicleId" : "7f78b0d1-9a0d-9d0c-8b3f-53be47ad99de",
+    "vehicleSoftwareCategory" : "TZGH97686",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 18.0175041931088,
+      "longitude" : 53.2736373991103,
+      "workShopId" : "6848343"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-05-02T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-05-02T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-05-02T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-05-02T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-12-13T12:06:24",
+      "serialNumber" : "509031EF92F",
+      "swPartNumber" : "SW_AD",
+      "swVersion" : "AC",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 8",
+        "fullName" : "P0008-00",
+        "isMilOn" : true,
+        "occurenceCounterTotal" : 8,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2020-04-29T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-12-13T12:06:24",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAC1385V2T9CAN4YT71T1W161374G4Q",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-04-15T10:00:01",
+    "sessionId" : "AAC1385V2T9CAN4YT71T1W161374G4Q_20200415",
+    "sessionMileage" : 360,
+    "sessionStart" : "2020-04-15T08:00:01",
+    "vehicleId" : "2b41e9a8-6d1f-9d9a-6a4e-73ae30ba16ee",
+    "vehicleSoftwareCategory" : "TZGH68204",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 21.390919241551,
+      "longitude" : 47.5540243729665,
+      "workShopId" : "7877306"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-04-15T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-04-15T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-04-15T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-04-15T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU C",
+      "partNumber" : "V039559478",
+      "readOutTimestamp" : "2022-01-24T22:05:17",
+      "serialNumber" : "681B5509D55",
+      "swPartNumber" : "SW_C",
+      "swVersion" : "CE",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 16",
+        "fullName" : "P0016-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 5,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2020-04-12T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-01-24T22:05:17",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAC4271D3A5GMG2VL66T4I290710S0M",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-09-30T10:00:01",
+    "sessionId" : "AAC4271D3A5GMG2VL66T4I290710S0M_20190930",
+    "sessionMileage" : 330,
+    "sessionStart" : "2019-09-30T08:00:01",
+    "vehicleId" : "7b70b7f4-0d1b-2d1b-7e1f-64fa74bb22ee",
+    "vehicleSoftwareCategory" : "TZGH92841",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 13.115434996035,
+      "longitude" : 50.0331022323405,
+      "workShopId" : "8506982"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-09-30T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-09-30T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-09-30T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-09-30T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-06-25T20:38:41",
+      "serialNumber" : "ED2AEC1BFA3",
+      "swPartNumber" : "SW_AC",
+      "swVersion" : "AC",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 23",
+        "fullName" : "P0023-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 14,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2019-09-27T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-06-25T20:38:41",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAC5510B0Y1MWL0IF79X4X770864Y6Y",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-04-08T10:00:01",
+    "sessionId" : "AAC5510B0Y1MWL0IF79X4X770864Y6Y_20200408",
+    "sessionMileage" : 360,
+    "sessionStart" : "2020-04-08T08:00:01",
+    "vehicleId" : "7a23f0a1-7b9a-2b4d-8b0a-00ec65cd97be",
+    "vehicleSoftwareCategory" : "TZGH70208",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 15.907253987805,
+      "longitude" : 51.5319141399683,
+      "workShopId" : "2603681"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-04-08T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-04-08T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-04-08T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-04-08T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-08-15T04:39:46",
+      "serialNumber" : "461CF4E435E",
+      "swPartNumber" : "SW_A",
+      "swVersion" : "AA",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 10",
+        "fullName" : "P0010-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 10,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2020-04-05T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-08-15T04:39:46",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAC8667J3P5OTN6RJ93D3X176957A8A",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-01-27T10:00:01",
+    "sessionId" : "AAC8667J3P5OTN6RJ93D3X176957A8A_20200127",
+    "sessionMileage" : 330,
+    "sessionStart" : "2020-01-27T08:00:01",
+    "vehicleId" : "2f59f1f0-1b4b-2e3d-4f1e-54cc82ba43db",
+    "vehicleSoftwareCategory" : "TZGH114239",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 15.2213555347737,
+      "longitude" : 48.3781983599226,
+      "workShopId" : "8616231"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-01-27T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-01-27T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-01-27T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-01-27T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V2",
+      "partName" : "Catena-X test ECU B",
+      "partNumber" : "V039492870",
+      "readOutTimestamp" : "2022-11-10T10:20:35",
+      "serialNumber" : "1C8D0A979BD",
+      "swPartNumber" : "SW_B5",
+      "swVersion" : "AB",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 31",
+        "fullName" : "P0031-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 30,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2020-01-24T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-11-10T10:20:35",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAD1841S8H9AYO6WH33Q9Q190830I6F",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-07-29T10:00:01",
+    "sessionId" : "AAD1841S8H9AYO6WH33Q9Q190830I6F_20190729",
+    "sessionMileage" : 360,
+    "sessionStart" : "2019-07-29T08:00:01",
+    "vehicleId" : "1e07d9e7-7a9a-6c5c-4a5e-22aa16da20ee",
+    "vehicleSoftwareCategory" : "TZGH112561",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 18.6519448861289,
+      "longitude" : 45.1686491374635,
+      "workShopId" : "8171722"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-07-29T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-07-29T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-07-29T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-07-29T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-06-15T14:15:49",
+      "serialNumber" : "4692CAD28D4",
+      "swPartNumber" : "SW_AC",
+      "swVersion" : "AC",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 3",
+        "fullName" : "P0003-00",
+        "isMilOn" : true,
+        "occurenceCounterTotal" : 24,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2019-07-26T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-06-15T14:15:49",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAD2012U4N1ZTR6MI75M4Z694279I0D",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-12-17T10:00:01",
+    "sessionId" : "AAD2012U4N1ZTR6MI75M4Z694279I0D_20191217",
+    "sessionMileage" : 360,
+    "sessionStart" : "2019-12-17T08:00:01",
+    "vehicleId" : "9e65a6a2-2c2a-3c7a-2a6f-91eb51bc44eb",
+    "vehicleSoftwareCategory" : "TZGH80810",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 18.6319604837034,
+      "longitude" : 45.7430789398047,
+      "workShopId" : "4203518"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-12-17T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-12-17T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-12-17T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-12-17T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V2",
+      "partName" : "Catena-X test ECU E",
+      "partNumber" : "V039513507",
+      "readOutTimestamp" : "2022-08-14T07:02:23",
+      "serialNumber" : "60768450788",
+      "swPartNumber" : "SW_E",
+      "swVersion" : "AD",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 22",
+        "fullName" : "P0022-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 27,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2019-12-14T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-08-14T07:02:23",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAD3674D3B0GCF9BG25O6Q947929H7V",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-07-19T10:00:01",
+    "sessionId" : "AAD3674D3B0GCF9BG25O6Q947929H7V_20190719",
+    "sessionMileage" : 360,
+    "sessionStart" : "2019-07-19T08:00:01",
+    "vehicleId" : "5e18d9a8-1a6b-0a9f-8e5f-46ea62fc38de",
+    "vehicleSoftwareCategory" : "TZGH89575",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 21.8832582243537,
+      "longitude" : 52.2764679136075,
+      "workShopId" : "9506152"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-07-19T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-07-19T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-07-19T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-07-19T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU G",
+      "partNumber" : "V039541151",
+      "readOutTimestamp" : "2022-08-16T19:23:21",
+      "serialNumber" : "85A57E53745",
+      "swPartNumber" : "SW_G",
+      "swVersion" : "AA",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 27",
+        "fullName" : "P0027-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 27,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2019-07-16T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-08-16T19:23:21",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAE0262M7A2AWZ9SG89L2D609421A4X",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-11-09T10:00:01",
+    "sessionId" : "AAE0262M7A2AWZ9SG89L2D609421A4X_20191109",
+    "sessionMileage" : 330,
+    "sessionStart" : "2019-11-09T08:00:01",
+    "vehicleId" : "2f88c4d6-6c8a-3d6f-7e4d-69be53ad57ce",
+    "vehicleSoftwareCategory" : "TZGH105090",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 6.01019266855639,
+      "longitude" : 45.2559708951198,
+      "workShopId" : "8174918"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-11-09T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-11-09T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-11-09T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-11-09T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-08-01T20:36:24",
+      "serialNumber" : "3EB6B6776B2",
+      "swPartNumber" : "SW_AD",
+      "swVersion" : "AC",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 32",
+        "fullName" : "P0032-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 13,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2019-11-06T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-08-01T20:36:24",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAE0808N1M0VJT4FV89K6J314260R8M",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-06-07T10:00:01",
+    "sessionId" : "AAE0808N1M0VJT4FV89K6J314260R8M_20200607",
+    "sessionMileage" : 390,
+    "sessionStart" : "2020-06-07T08:00:01",
+    "vehicleId" : "8d31f6b5-2f9d-8c6f-0e1b-45ac77cb54db",
+    "vehicleSoftwareCategory" : "TZGH68424",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 11.8346142483077,
+      "longitude" : 49.883121207034,
+      "workShopId" : "8041415"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-06-07T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-06-07T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-06-07T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-06-07T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V2",
+      "partName" : "Catena-X test ECU B",
+      "partNumber" : "V039492870",
+      "readOutTimestamp" : "2022-06-05T16:32:49",
+      "serialNumber" : "DAA7419B2D9",
+      "swPartNumber" : "SW_B5",
+      "swVersion" : "AB",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 26",
+        "fullName" : "P0026-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 10,
+        "occurenceMileage" : 300,
+        "occurenceTimeStamp" : "2020-06-04T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-06-05T16:32:49",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAE6730R5P7GYM2NW30N8J247883J5J",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-01-02T10:00:01",
+    "sessionId" : "AAE6730R5P7GYM2NW30N8J247883J5J_20200102",
+    "sessionMileage" : 360,
+    "sessionStart" : "2020-01-02T08:00:01",
+    "vehicleId" : "9a97e2a0-4b1d-4b1e-3e3c-67df74ca94bc",
+    "vehicleSoftwareCategory" : "TZGH109624",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 10.3003368530693,
+      "longitude" : 53.0875787112064,
+      "workShopId" : "1146861"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-01-02T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-01-02T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-01-02T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-01-02T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V2",
+      "partName" : "Catena-X test ECU B",
+      "partNumber" : "V039492870",
+      "readOutTimestamp" : "2022-11-19T01:22:26",
+      "serialNumber" : "75951A70707",
+      "swPartNumber" : "SW_B",
+      "swVersion" : "AB",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 6",
+        "fullName" : "P0006-00",
+        "isMilOn" : true,
+        "occurenceCounterTotal" : 24,
+        "occurenceMileage" : 270,
+        "occurenceTimeStamp" : "2019-12-30T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-11-19T01:22:26",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAE8365F2S1OKR4DI46F6E785293K9C",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2020-06-22T10:00:01",
+    "sessionId" : "AAE8365F2S1OKR4DI46F6E785293K9C_20200622",
+    "sessionMileage" : 330,
+    "sessionStart" : "2020-06-22T08:00:01",
+    "vehicleId" : "9e77b9b3-1f2c-3e6e-6a6f-03ed62cc23dc",
+    "vehicleSoftwareCategory" : "TZGH71277",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 8.45927191395556,
+      "longitude" : 48.2946462464431,
+      "workShopId" : "2657419"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2020-06-22T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-06-22T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2020-06-22T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2020-06-22T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU G",
+      "partNumber" : "V039541151",
+      "readOutTimestamp" : "2022-06-22T07:00:06",
+      "serialNumber" : "4E9FC45D291",
+      "swPartNumber" : "SW_G",
+      "swVersion" : "AA",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 29",
+        "fullName" : "P0029-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 10,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2020-06-19T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-06-22T07:00:06",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAF5110V6Z6DQI9LK19M5H008304F8B",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-08-21T10:00:01",
+    "sessionId" : "AAF5110V6Z6DQI9LK19M5H008304F8B_20190821",
+    "sessionMileage" : 330,
+    "sessionStart" : "2019-08-21T08:00:01",
+    "vehicleId" : "2b11d3a9-3c7e-5c2b-6e3c-97bc69fe68cb",
+    "vehicleSoftwareCategory" : "TZGH85572",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 7.2399143186663,
+      "longitude" : 53.1183337056306,
+      "workShopId" : "2319945"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-08-21T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-08-21T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-08-21T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-08-21T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V2",
+      "partName" : "Catena-X test ECU B",
+      "partNumber" : "V039492870",
+      "readOutTimestamp" : "2022-09-22T22:35:34",
+      "serialNumber" : "D84C23AC5B1",
+      "swPartNumber" : "SW_B4",
+      "swVersion" : "AD",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 14",
+        "fullName" : "P0014-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 19,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2019-08-18T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-09-22T22:35:34",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAF7129N4F5ZWY3CM26Z9D337687X8G",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-12-02T10:00:01",
+    "sessionId" : "AAF7129N4F5ZWY3CM26Z9D337687X8G_20191202",
+    "sessionMileage" : 330,
+    "sessionStart" : "2019-12-02T08:00:01",
+    "vehicleId" : "2b39d1a2-2b7c-9b1f-8f8c-96db68cc29af",
+    "vehicleSoftwareCategory" : "TZGH108464",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 11.6397071459013,
+      "longitude" : 47.8285971970342,
+      "workShopId" : "3066865"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-12-02T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-12-02T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-12-02T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-12-02T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-08-20T23:33:58",
+      "serialNumber" : "3DD1CED2352",
+      "swPartNumber" : "SW_AC",
+      "swVersion" : "AC",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 16",
+        "fullName" : "P0016-00",
+        "isMilOn" : false,
+        "occurenceCounterTotal" : 3,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2019-11-29T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-08-20T23:33:58",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  }, {
+    "anonymizedVIN" : "AAG2215O0B4JRG3YZ36F9U690565G5S",
+    "countryCode" : "DEU",
+    "diagnosticSoftwareName" : "Pontiac Car Diagnostic software",
+    "diagnosticSoftwareVersion" : "V.411 Patch 2023-02",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "recordStatus" : "new",
+    "sessionEnd" : "2019-10-23T10:00:01",
+    "sessionId" : "AAG2215O0B4JRG3YZ36F9U690565G5S_20191023",
+    "sessionMileage" : 330,
+    "sessionStart" : "2019-10-23T08:00:01",
+    "vehicleId" : "3d96b2a6-2e1b-2f5c-4a7d-10bd57ef37ef",
+    "vehicleSoftwareCategory" : "TZGH110674",
+    "vehicleSoftwareVersion" : "3.5.0001.001",
+    "workshop" : {
+      "latitude" : 7.42325031994611,
+      "longitude" : 45.2098798956296,
+      "workShopId" : "5970810"
+    },
+    "procedures" : [ {
+      "procedureDescription" : "Activate over the air software updates for all ecus",
+      "procedureEnd" : "2019-10-23T09:57:01",
+      "procedureID" : "SW_Up_Act",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-10-23T09:55:01"
+    }, {
+      "procedureDescription" : "Deactivate over the air software updates for all ecus",
+      "procedureEnd" : "2019-10-23T08:05:01",
+      "procedureID" : "SW_Up_Deact",
+      "procedureResult" : "ok",
+      "procedureStart" : "2019-10-23T08:03:01"
+    } ],
+    "ecus" : [ {
+      "assemblyPartNumberVersion" : "1",
+      "hwVersion" : "V1",
+      "partName" : "Catena-X test ECU A",
+      "partNumber" : "V039738624",
+      "readOutTimestamp" : "2022-07-29T06:20:36",
+      "serialNumber" : "B5731363572",
+      "swPartNumber" : "SW_AD",
+      "swVersion" : "AC",
+      "dtcs" : [ {
+        "dtcHexValue" : "0000002",
+        "faultPath" : "1",
+        "faultPathDescription" : "Error path1",
+        "freezeFrame" : "0x1004000012345678000112345678ff0002ff000300",
+        "fullDescription" : "Catena-X test dtc 6",
+        "fullName" : "P0006-00",
+        "isMilOn" : true,
+        "occurenceCounterTotal" : 6,
+        "occurenceMileage" : 240,
+        "occurenceTimeStamp" : "2019-10-20T00:00:01",
+        "state" : "1",
+        "type" : "Error",
+        "envConditions" : [ {
+          "conditionCreationTimeStamp" : "2022-07-29T06:20:36",
+          "conditionDescription" : "Drehzahl",
+          "conditionId" : "DTC1_EnvCond2",
+          "conditionNumericValue" : 5000,
+          "measurementUnit" : "rpm"
+        } ]
+      } ]
+    } ]
+  } ]
+}

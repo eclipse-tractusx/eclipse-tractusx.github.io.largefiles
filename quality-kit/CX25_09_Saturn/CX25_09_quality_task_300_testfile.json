@@ -1,0 +1,40 @@
+{
+  "metaInformation" : {
+    "selectionCriteria" : "This test data set was created for Catena-X release 25/Saturn. All test data is artificial and was translated from previous Catena-X release 24.",
+    "selectionEnd" : "2025-12-31T23:59:59",
+    "selectionStart" : "2025-05-09T00:00:00"
+  },
+  "qualityTasks" : [ {
+    "recordStatus" : "new",
+    "creationDate" : "2023-11-11",
+    "partName" : "ABS",
+    "dataDeletion" : "delete-data-after-closing",
+    "description" : "Early Warning of vehicle model A with compoenent ABS.",
+    "qualityTaskId" : "430f56d3-1234-1234-1234-abc123456789",
+    "status" : "new",
+    "title" : "Early Warning A",
+    "companies" : [ {
+      "bpnlProperty" : "BPNL000000000123",
+      "name" : "testCompanyA"
+    }, {
+      "bpnlProperty" : "BPNL000000000124",
+      "name" : "testCompanyB"
+    } ]
+  }, {
+    "recordStatus" : "new",
+    "creationDate" : "2024-01-19",
+    "partName" : "Gear Box",
+    "dataDeletion" : "delete-data-after-closing",
+    "description" : "Early Warning of vehicle model B with component gear box.",
+    "qualityTaskId" : "430f56d3-4711-4711-4711-abc123456789",
+    "status" : "new",
+    "title" : "Early Warning B",
+    "companies" : [ {
+      "bpnlProperty" : "BPNL000000000123",
+      "name" : "testCompanyA"
+    }, {
+      "bpnlProperty" : "BPNL000000000124",
+      "name" : "testCompanyB"
+    } ]
+  } ]
+}
