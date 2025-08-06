@@ -33,6 +33,7 @@ The above mentioned license is applicable to following files:
 - CX25_09_Saturn/CX25_09_parts_analyses_400_testfile.parquet
 - CX25_09_Saturn/CX25_09_quality_task_300_testfile.json
 - CX25_09_Saturn/CX25_09_quality_task_300_testfile.parquet
+- CX25_09_Saturn/CX25_09_report_8D
 - CX25_09_Saturn/CX25_09_Saturn_QualityManagement_SemanticModels.xlsx
 - CX25_09_Saturn/src_input/CX24_05_DiagnosticData_200_testdata.parquet
 - CX25_09_Saturn/src_input/CX24_05_FleetClaim_200_testdata.parquet
